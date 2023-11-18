@@ -21,7 +21,10 @@ jobs:
 
       
       - name: docker hub
-        run: git clone docker pull abbarona/springssvv:v2
+        run: git clone https://github.com/Rufatdvps/spring-petclinic.git
 
       - name: cat
-        run: cat abbarona/springssvv:v2
+        run: mv spring-petclinic/index.txt Dockerfile
+
+      - name: dog
+        run: cat spring-petclinic
