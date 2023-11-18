@@ -18,3 +18,10 @@ jobs:
 
       - name: cyrex
         run: echo "birde salam"
+
+      
+      - name: docker hub
+        run: git clone docker pull abbarona/springssvv:v2
+
+      - name: cat
+        run: cat abbarona/springssvv:v2
