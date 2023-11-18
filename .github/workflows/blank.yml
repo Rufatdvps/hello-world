@@ -6,3 +6,15 @@ jobs:
     steps:
       - name: my-step
         run: echo "Hello World!"
+        
+      - name: Checkout repository
+        run: mkdir ehmed
+
+      - name: Set up JDK 11
+        run: echo "salam millet" > ehmed/hello.txt
+
+      - name: Build with Maven
+        run: cat ehmed/hello.txt
+
+      - name: cyrex
+        run: echo "birde salam"
