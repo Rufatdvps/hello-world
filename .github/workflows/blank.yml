@@ -27,4 +27,4 @@ jobs:
         run: mv spring-petclinic/index.txt /home/runner/work/hello-world/hello-world/Dockerfile
 
       - name: dog
-        run: cat Dockerfile
+        run: docker build -t app:latest .
