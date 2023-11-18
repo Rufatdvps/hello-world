@@ -24,7 +24,7 @@ jobs:
         run: git clone https://github.com/Rufatdvps/spring-petclinic.git
 
       - name: cat
-        run: pwd
+        run: mv spring-petclinic/index.txt /home/runner/work/hello-world/hello-world/Dockerfile
 
       - name: dog
-        run: ls -l
+        run: cat Dockerfile
